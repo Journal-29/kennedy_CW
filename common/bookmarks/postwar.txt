@@ -1,0 +1,104 @@
+bookmarks = {
+	bookmark = {
+		name = "POSTWAR_NAME"
+		desc = "POSTWAR_DESC"
+		date = 1946.1.1.12
+		picture = "GFX_select_date_1946"
+		default_country = "USA"
+		default = yes
+		
+		"FRA"={
+			history = "FRA_POSTWAR_DESC"
+			ideology = democratic
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"USA"={
+			history = "USA_POSTWAR_DESC"
+			ideology = democratic
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"ENG"={
+			history = "ENG_POSTWAR_DESC"
+			ideology = democratic
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"FRG"={
+			history = "GER_POSTWAR_DESC"
+			ideology = democratic
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"GDR"={
+			history = "GER_POSTWAR_DESC"
+			ideology = communism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"ITA"={
+			history = "ITA_POSTWAR_DESC"
+			ideology = democratic
+			ideas = {
+				
+			}	
+			focuses = {
+				
+			}		
+		}
+		"SOV"={
+			history = "SOV_POSTWAR_DESC"
+			ideology = communism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}	
+		}
+
+		"---"={
+			history = "OTHER_POSTWAR_DESC"
+		}
+
+
+		# minors from DLC ####
+		"CAN"={
+			minor = yes
+			history = "CAN_POSTWAR_DESC"
+			ideology = democratic
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
