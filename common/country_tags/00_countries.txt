@@ -1,0 +1,30 @@
+# MAJORS AT START
+ENG	= "countries/United Kingdom.txt"
+USA	= "countries/United States.txt"
+SOV	= "countries/Soviet Union.txt"
+FRA	= "countries/France.txt"
+
+# EUROPE
+GDR	= "countries/East Germany.txt"
+FRG	= "countries/West Germany.txt"
+POR = "countries/Portugal.txt"
+SPA = "countries/Spain.txt"
+ITA = "countries/Italy.txt"
+YUG = "countries/Yugoslavia.txt"
+
+# ASIA
+JAP	= "countries/Japan.txt"
+MON	= "countries/Mongolia.txt"
+CHI	= "countries/Nationalist China.txt"
+PRC	= "countries/Communist China.txt"
+
+#DECOLONIZATION
+EGY	= "countries/Egypt.txt"
+CAN	= "countries/Canada.txt"
+SAF	= "countries/South Africa.txt"
+MAL = "countries/Malaya.txt"
+PAK = "countries/Pakistan.txt"
+IND = "countries/India.txt"
+SIN = "countries/Singapore.txt"
+
+#NOTE: Useful to add a basic default loc entry for each tag in 00_countries.txt so that hovering over a tag will show the tag's name in loc (ie. PAP: "Papal States")
