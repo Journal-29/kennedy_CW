@@ -1,2 +1,3 @@
 # kennedy_CW
-Mod folder (HOI4)
+Project Truman - The Cold War
+By Journal-29 (Journalman29 on Steam)
