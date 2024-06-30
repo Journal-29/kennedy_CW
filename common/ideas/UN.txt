@@ -1,0 +1,25 @@
+ideas = {
+
+    country = {
+        permanent_un_security_member = {
+            picture = gen_permanent_un_member
+
+            allowed = {
+                NOT = {
+                    is_minor = yes
+                }
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+
+            removal_cost = -1
+
+            modifier = {
+                political_power_factor = -0.2
+                trade_opinion_factor = 0.4
+            }
+        }
+    }
+}

@@ -1,0 +1,116 @@
+bookmarks = {
+    bookmark = {
+        name = "SIXTIES_NAME"
+        desc = "SIXTIES_DESC"
+        date = 1960.1.1.12
+        picture = "GFX_select_date_1960"
+        default_country = USA
+        default = yes
+
+        "FRA"={
+            history = "FRA_SIXTIES_DESC"
+            ideology = democratic
+            ideas = {
+
+            }
+
+            focuses = {
+
+            }
+        }
+
+        "USA"={
+            history = "USA_SIXTIES_DESC"
+            ideology = democratic
+            ideas = {
+
+            }
+            
+            focuses = {
+
+            }
+        }
+
+        "ENG"={
+            history = "ENG_SIXTIES_DESC"
+            ideology = democratic
+            ideas = {
+
+            }
+            
+            focuses = {
+
+            }
+        }
+
+        "FRG"={
+            history = "FRG_SIXTIES_DESC"
+            ideology = democratic
+            ideas = {
+
+            }
+            
+            focuses = {
+
+            }
+        }
+
+        "GDR"={
+            history = "GDR_SIXTIES_DESC"
+            ideology = communism
+            ideas = {
+
+            }
+            
+            focuses = {
+
+            }
+        }
+
+        "ITA"={
+            history = "ITA_SIXTIES_DESC"
+            ideology = democratic
+            ideas = {
+
+            }
+            
+            focuses = {
+
+            }
+        }
+
+        "SOV"={
+            history = "SOV_SIXTIES_DESC"
+            ideology = communism
+            ideas = {
+
+            }
+            
+            focuses = {
+
+            }
+        }
+
+        "---"={
+            history = "OTHER_SIXTIES_DESC"
+        }
+
+        "CAN"={
+            minor = yes
+            history = "CAN_SIXTIES_DESC"
+            ideology = democratic
+            ideas = {
+
+            }
+
+            focuses = {
+
+            }
+        }
+
+        effect = {
+            randomize_weather = 22345
+            #123 = { rain_light = yes }
+        }
+    }
+}
