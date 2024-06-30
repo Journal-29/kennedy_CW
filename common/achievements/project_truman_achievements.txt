@@ -1,0 +1,43 @@
+unique_id = project_truman_120146
+
+will_work_harder = {
+    possible = {
+        difficulty > 1
+        has_start_date > 1946.01.01
+        has_any_custom_difficulty_setting = no
+        is_ironman = yes
+        is_historical_focus_on = yes
+    }
+
+    happened = {
+        has_government = communism
+        OR = {
+            controls_state = 126
+            ENG = {
+                is_puppet = yes
+            }
+        }
+    }
+}
+
+orwells_wet_dream = {
+    possible = {
+        difficulty > 1
+        has_start_date > 1946.01.01
+        has_any_custom_difficulty_setting = no
+        is_ironman = yes
+        is_historical_focus_on = yes
+    }
+
+    happened = {
+        has_government = communism
+        OR = {
+            NOT = {
+                country_exists = ENG
+            }
+            ENG = {
+                is_puppet = yes
+            }
+        }
+    }
+}
