@@ -1,0 +1,218 @@
+﻿search_filter_prios = {
+
+	FOCUS_FILTER_POLITICAL = 1010
+	
+	FOCUS_FILTER_RESEARCH = 522
+	
+	FOCUS_FILTER_INDUSTRY = 509
+
+	FOCUS_FILTER_BALANCE_OF_POWER = 200
+	FOCUS_FILTER_PROPAGANDA = 110
+	FOCUS_FILTER_ARMY_XP = 103
+	FOCUS_FILTER_NAVY_XP = 102
+	FOCUS_FILTER_AIR_XP = 101
+
+}
+
+focus_tree = {
+	id = generic_focus
+	
+	country = {
+		factor = 1
+	}
+	
+	default = yes
+	reset_on_civilwar = no
+
+	initial_show_position = {
+		focus = cold_war
+	}
+
+### DEPENDENT ON COUNTRY
+
+	focus = {
+		id = defeat_in_ww2
+		icon = GFX_focus_generic_university_2
+		x = 5
+		y = 0
+		cost = 10
+		search_filters = {  FOCUS_FILTER_POLITICAL }
+		
+		allow_branch = {
+			NOT = {
+				is_puppet = yes
+			}
+			has_idea = losers_of_ww2
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+
+	focus = {
+		id = victory_in_ww2
+		icon = GFX_focus_generic_university_2
+		x = 5
+		y = 0
+		cost = 10
+		search_filters = {  FOCUS_FILTER_POLITICAL }
+		
+		allow_branch = {
+			NOT = {
+				is_puppet = yes
+			}
+			has_idea = winners_of_ww2
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+
+### GENERIC POLITICS
+
+	focus = {
+		id = cold_war
+		icon = GFX_focus_generic_university_2
+		x = 20
+		y = 0
+		cost = 5
+		search_filters = {  FOCUS_FILTER_POLITICAL }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+
+	focus = {
+		id = democratic_values
+		icon = GFX_focus_generic_university_2
+		x = -2
+		y = 1
+		cost = 10
+		search_filters = {  FOCUS_FILTER_POLITICAL }
+		relative_position_id = cold_war
+		prerequisite = { focus = cold_war }
+
+		mutually_exclusive = { focus = internationalism }
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+
+	focus = {
+		id = internationalism
+		icon = GFX_focus_generic_university_2
+		x = 2
+		y = 1
+		cost = 10
+		search_filters = {  FOCUS_FILTER_POLITICAL }
+		relative_position_id = cold_war
+		prerequisite = { focus = cold_war }
+
+		mutually_exclusive = { focus = democratic_values }
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+
+### GENERIC INDUSTRY
+
+	focus = {
+		id = industrial_reform
+		icon = GFX_focus_generic_university_2
+		x = 35
+		y = 0
+		cost = 5
+		search_filters = {  FOCUS_FILTER_POLITICAL }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+
+	focus = {
+		id = demobilization
+		icon = GFX_focus_generic_university_2
+		x = -3
+		y = 2
+		cost = 10
+		search_filters = {  FOCUS_FILTER_POLITICAL }
+		relative_position_id = industrial_reform
+
+		prerequisite = { focus = industrial_reform }
+		
+		mutually_exclusive = { focus = expanded_industry }
+
+		allow_branch = {
+			NOT = {
+				has_completed_focus = expanded_industry
+			}
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+
+	focus = {
+		id = factory_conversion
+		icon = GFX_focus_generic_university_2
+		x = -3
+		y = 4
+		cost = 10
+		search_filters = {  FOCUS_FILTER_POLITICAL }
+		relative_position_id = industrial_reform
+
+		prerequisite = { focus = demobilization }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+
+	focus = {
+		id = expanded_industry
+		icon = GFX_focus_generic_university_2
+		x = 3
+		y = 2
+		cost = 10
+		search_filters = {  FOCUS_FILTER_POLITICAL }
+		relative_position_id = industrial_reform
+
+		prerequisite = { focus = industrial_reform }
+		
+		mutually_exclusive = { focus = demobilization }
+
+		allow_branch = {
+			NOT = {
+				has_completed_focus = demobilization
+			}
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+	}
