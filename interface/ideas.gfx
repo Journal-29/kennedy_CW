@@ -1,0 +1,7 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_idea_permanent_un_security_member"
+		texturefile = "gfx/interface/ideas/permanent_un_security_member.dds"
+	}
+}

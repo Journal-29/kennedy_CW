@@ -2,7 +2,7 @@ ideas = {
 
     country = {
         permanent_un_security_member = {
-            picture = gen_permanent_un_member
+            picture = GFX_idea_permanent_un_security_member
 
             allowed = {
                 NOT = {
