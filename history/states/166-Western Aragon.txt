@@ -6,7 +6,7 @@ state={
 	}
 
 	history={
-		owner = SPR
+		owner = SPA
 		victory_points = {
 			3816 3 
 		}
@@ -20,10 +20,8 @@ state={
 			infrastructure = 3 #was: 6
 			industrial_complex = 1
 			air_base = 3
-
 		}
-		add_core_of = SPR
-
+		add_core_of = SPA
 	}
 
 	provinces={

@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = EST
+		owner = SOV
 		victory_points = {
 			3174 1 #Voru
 		}
@@ -16,10 +16,8 @@ state={
 			arms_factory = 1
 			industrial_complex = 1
 			air_base = 2
-
 		}
-		add_core_of = EST
-
+		add_core_of = SOV
 	}
 
 	provinces={
