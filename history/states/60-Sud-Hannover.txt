@@ -12,14 +12,18 @@ state={
 	state_category = large_city
 
 	history={
-		owner = GDR
+		owner = SOV
 		victory_points = { 3561 5 }
 		victory_points = { 425 3 }
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 		}
-		add_core_of = GDR
+
+		1949.10.7 = {
+			owner = GDR
+			add_core_of = GDR
+		}
 	}
 
 	provinces={

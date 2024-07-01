@@ -10,7 +10,7 @@ state={
 	}
 	
 	history = {
-		owner = FRG
+		owner = AOB
 		victory_points = {
 			13364 25
 		}
@@ -19,7 +19,12 @@ state={
 			industrial_complex = 3
 			air_base = 2
 		}
-		add_core_of = FRG
+		add_core_of = AOB
+		
+		1949.5.23 = {
+			owner = FRG
+			add_core_of = FRG
+		}
 	}
 	
 	provinces={

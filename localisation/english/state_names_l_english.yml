@@ -985,5 +985,5 @@
  STATE_967:-1 "Amazon"
  STATE_968:-1 "Amazon"
  STATE_969:-1 "Rio Branco"
- STATE_970:0 "West Berlin"
- STATE_971:0 "East Berlin"
+ STATE_970:-1 "West Berlin"
+ STATE_971:-1 "East Berlin"

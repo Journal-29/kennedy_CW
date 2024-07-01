@@ -1,2 +1,24 @@
 l_english:
- test:0 "Test"
+### GENERIC WW2 AFTERMATH
+ defeat_in_ww2:0 "Defeat in World War 2"
+ defeat_in_ww2_desc:0 ""
+ victory_in_ww2:0 "Victory in World War 2"
+ victory_in_ww2_desc:0 ""
+
+### GENERIC POLITICS
+ cold_war:0 "The Cold War"
+ cold_war_desc:0 ""
+ democratic_values:0 "Democratic Values"
+ democratic_values_desc:0 ""
+ internationalism:0 "Internationalism"
+ internationalism_desc:0 ""
+
+### GENERIC INDUSTRY
+ industrial_reform:0 "Industrial Reform"
+ industrial_reform_desc:0 ""
+ demobilization:0 "Demobilization"
+ demobilization_desc:0 ""
+ factory_conversion:0 "Switch to Civilian Economy"
+ factory_conversion_desc:0 ""
+ expanded_industry:0 "Expand Defense Industries"
+ expanded_industry_desc:0 ""

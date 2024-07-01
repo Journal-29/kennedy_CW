@@ -10,7 +10,7 @@ state={
 	}
 	
 	history = {
-		owner = GDR
+		owner = SOV
 		victory_points = {
 			6521 25 
 		}
@@ -19,7 +19,11 @@ state={
 			industrial_complex = 2
 			air_base = 2
 		}
-		add_core_of = GDR
+
+		1949.10.7 = {
+			owner = GDR
+			add_core_of = GDR
+		}
 	}
 	
 	provinces={

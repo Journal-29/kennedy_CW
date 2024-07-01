@@ -6,7 +6,7 @@ state={
 	state_category = city
 
 	history={
-		owner = FRG
+		owner = ENG
 		victory_points = {
 			241 5 
 		}
@@ -28,7 +28,11 @@ state={
 			air_base = 3
 
 		}
-		add_core_of = FRG
+
+		1949.5.23 = {
+			owner = FRG
+			add_core_of = FRG
+		}
 	}
 
 	provinces={

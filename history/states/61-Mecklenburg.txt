@@ -7,7 +7,7 @@ state={
 	state_category = town
 
 	history={
-		owner = GDR
+		owner = SOV
 		victory_points = {
 			321 5
 		}
@@ -23,7 +23,11 @@ state={
 			}
 			air_base = 3
 		}
-		add_core_of = GDR
+
+		1949.10.7 = {
+			owner = GDR
+			add_core_of = GDR
+		}
 	}
 
 	provinces={

@@ -10,7 +10,7 @@ state={
 	state_category = large_city
 
 	history={
-		owner = FRG
+		owner = ENG
 		victory_points = {
 			3326 5 
 		}
@@ -27,7 +27,11 @@ state={
 			}
 
 		}
-		add_core_of = FRG
+
+		1949.5.23 = {
+			owner = FRG
+			add_core_of = FRG
+		}
 	}
 
 	provinces={

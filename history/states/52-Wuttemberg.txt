@@ -10,7 +10,7 @@ state={
 	state_category = city
 
 	history={
-		owner = FRG
+		owner = USA
 		victory_points = {
 			692 20
 		}
@@ -23,7 +23,11 @@ state={
 			industrial_complex = 1
 			air_base = 6
 		}
-		add_core_of = FRG
+
+		1949.5.23 = {
+			owner = FRG
+			add_core_of = FRG
+		}
 	}
 
 	provinces={
