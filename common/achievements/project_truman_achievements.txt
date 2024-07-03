@@ -41,3 +41,122 @@ orwells_wet_dream = {
         }
     }
 }
+
+new_world_fallen = {
+    possible = {
+        difficulty > 1
+        has_start_date > 1946.01.01
+        has_any_custom_difficulty_setting = no
+        is_ironman = yes
+        is_historical_focus_on = yes
+    }
+
+    happened = {
+        has_government = communism
+        is_in_faction_with = SOV
+        OR = {
+            OR = {
+                NOT = {
+                    country_exists = ENG
+                }
+                ENG = {
+                    is_puppet = yes
+                    has_government = communism
+                }
+            }
+            OR = {
+                NOT = {
+                    country_exists = FRA
+                }
+                FRA = {
+                    is_puppet = yes
+                    has_government = communism
+                }
+            }
+            OR = {
+                NOT = {
+                    country_exists = USA
+                }
+                USA = {
+                    is_puppet = yes
+                    has_government = communism
+                }
+            }
+        }
+    }
+}
+
+red_dawns_end = {
+    possible = {
+        difficulty > 1
+        has_start_date > 1946.01.01
+        has_any_custom_difficulty_setting = no
+        is_ironman = yes
+        is_historical_focus_on = yes
+    }
+
+    happened = {
+        has_government = democratic
+        is_in_faction_with = {
+            any_country = {
+                has_government = democratic
+            }
+        }
+        OR = {
+            NOT = {
+                country_exists = SOV
+            }
+            SOV = {
+                NOT = {
+                    has_government = communism
+                }
+            }
+        }
+        all_country = {
+            NOT = {
+                has_government = communism
+            }
+        }
+    }
+}
+
+global_revolution = {
+    possible = {
+        difficulty > 1
+        has_start_date > 1946.01.01
+        has_any_custom_difficulty_setting = no
+        is_ironman = yes
+        is_historical_focus_on = yes
+    }
+
+    happened = {
+        has_government = communism
+        is_in_faction_with = {
+            any_country = {
+                has_government = communism
+            }
+        }
+        OR = {
+            ENG = {
+                NOT = {
+                    has_government = democratic
+                }
+            }
+            FRA = {
+                NOT = {
+                    has_government = democratic
+                }
+            }
+            USA = {
+                NOT = {
+                    has_government = democratic
+                }
+            }
+        }
+        all_country = {
+            NOT = {
+                has_government = communism
+            }
+        }
+    }
+}

@@ -129,11 +129,11 @@ focus_tree = {
 	focus = {
 		id = factory_conversion
 		icon = GFX_focus_generic_university_2
-		x = -2
-		y = 2
+		x = 0
+		y = 1
 		cost = 10
 		search_filters = {  FOCUS_FILTER_POLITICAL }
-		relative_position_id = industrial_reform
+		relative_position_id = demobilization
 
 		prerequisite = { focus = demobilization }
 		
@@ -176,7 +176,7 @@ focus_tree = {
 	focus = {
 		id = army_reform
 		icon = GFX_focus_generic_university_2
-		x = 20
+		x = 18
 		y = 0
 		cost = 5
 		search_filters = {  FOCUS_FILTER_POLITICAL }
@@ -198,6 +198,117 @@ focus_tree = {
 
 		relative_position_id = army_reform
 		prerequisite = { focus = army_reform }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+
+	focus = {
+		id = centralized_command
+		icon = GFX_focus_generic_university_2
+		x = 2
+		y = 1
+		cost = 5
+		search_filters = {  FOCUS_FILTER_POLITICAL }
+
+		mutually_exclusive = { focus = decentralized_command }
+
+		relative_position_id = army_reform
+		prerequisite = { focus = army_reform }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+
+	focus = {
+		id = decentralized_command
+		icon = GFX_focus_generic_university_2
+		x = 3.5
+		y = 1
+		cost = 5
+		search_filters = {  FOCUS_FILTER_POLITICAL }
+
+		relative_position_id = army_reform
+		prerequisite = { focus = army_reform }
+
+		mutually_exclusive = { focus = centralized_command }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+
+	focus = {
+		id = coastal_offensive
+		icon = GFX_focus_generic_university_2
+		x = 5
+		y = 1
+		cost = 5
+		search_filters = {  FOCUS_FILTER_POLITICAL }
+
+		relative_position_id = army_reform
+		prerequisite = {
+			focus = army_reform
+			focus = navy_reform
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+
+	focus = {
+		id = special_marines
+		icon = GFX_focus_generic_university_2
+		x = 5
+		y = 2
+		cost = 5
+		search_filters = {  FOCUS_FILTER_POLITICAL }
+
+		relative_position_id = army_reform
+		prerequisite = { focus = coastal_offensive }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+
+### GENERIC NAVY
+	focus = {
+		id = navy_reform
+		icon = GFX_focus_generic_university_2
+		x = 24
+		y = 0
+		cost = 5
+		search_filters = {  FOCUS_FILTER_POLITICAL }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+
+### GENERIC AIR
+	focus = {
+		id = air_reform
+		icon = GFX_focus_generic_university_2
+		x = 28
+		y = 0
+		cost = 5
+		search_filters = {  FOCUS_FILTER_POLITICAL }
 		
 		available_if_capitulated = yes
 
