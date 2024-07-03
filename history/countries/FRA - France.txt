@@ -23,6 +23,10 @@ set_convoys = 20
 	}
 }
 
+add_ideas = {
+	permanent_un_security_member
+}
+
 create_country_leader = {
 	name = "Charles de Gaulle"
 	desc = "FRA_gaulle_desc"

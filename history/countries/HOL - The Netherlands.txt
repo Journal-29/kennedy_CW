@@ -1,4 +1,4 @@
-﻿capital = 219
+﻿capital = 10
 
 # Starting tech
 set_technology = {
@@ -16,21 +16,17 @@ set_convoys = 20
 	}
 
 	set_popularities = {
-		democratic = 0
+		democratic = 15
 		fascism = 0
-		communism = 100
-		neutrality = 0
+		communism = 80
+		neutrality = 5
 	}
 }
 
-add_ideas = {
-	permanent_un_security_member
-}
-
 create_country_leader = {
-	name = "Joseph Stalin"
-	desc = "SOV_stalin_desc"
-	picture = GFX_portrait_Joseph_Stalin
+	name = "Boleslaw Bierut"
+	desc = "POL_bierut_desc"
+	picture = GFX_portrait_Boleslaw_Bierut
 	ideology = stalinism
 	traits = {
 		#

@@ -1,0 +1,24 @@
+ideas = {
+
+    country = {
+        gen_postwar_demobilization = {
+            picture = GFX_idea_postwar_demobilization
+
+            #allowed = {
+            #
+            #}
+
+            allowed_civil_war = {
+                always = no
+            }
+
+            removal_cost = -1
+
+            modifier = {
+                conversion_cost_mil_to_civ_factor = 0.5
+                production_speed_industrial_complex_factor = 0.25
+                production_speed_arms_factory_factor = -0.25
+            }
+        }
+    }
+}

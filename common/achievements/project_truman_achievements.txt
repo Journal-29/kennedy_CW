@@ -1,4 +1,4 @@
-unique_id = project_truman_120146
+unique_id = project_truman
 
 will_work_harder = {
     possible = {

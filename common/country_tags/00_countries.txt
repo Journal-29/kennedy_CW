@@ -11,6 +11,10 @@ POR = "countries/Portugal.txt"
 SPA = "countries/Spain.txt"
 ITA = "countries/Italy.txt"
 YUG = "countries/Yugoslavia.txt"
+POL = "countries/Poland.txt"
+HOL = "countries/Netherlands.txt"
+BEL = "countries/Belgium.txt"
+LUX = "countries/Luxembourg.txt"
 
 # ASIA
 JAP	= "countries/Japan.txt"

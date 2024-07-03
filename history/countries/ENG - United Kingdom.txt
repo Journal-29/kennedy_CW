@@ -23,6 +23,10 @@ set_convoys = 20
 	}
 }
 
+add_ideas = {
+	permanent_un_security_member
+}
+
 create_country_leader = {
 	name = "Clement Attlee"
 	desc = "ENG_attlee_desc"

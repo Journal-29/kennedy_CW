@@ -11,7 +11,7 @@ bookmarks = {
 			history = "FRA_POSTWAR_DESC"
 			ideology = democratic
 			ideas = {
-				
+				permanent_un_security_member
 			}
 			focuses = {
 				
@@ -21,7 +21,7 @@ bookmarks = {
 			history = "USA_POSTWAR_DESC"
 			ideology = democratic
 			ideas = {
-				
+				permanent_un_security_member
 			}
 			focuses = {
 				
@@ -31,7 +31,7 @@ bookmarks = {
 			history = "ENG_POSTWAR_DESC"
 			ideology = democratic
 			ideas = {
-				
+				permanent_un_security_member
 			}
 			focuses = {
 				
@@ -57,11 +57,11 @@ bookmarks = {
 				
 			}
 		}
-		"ITA"={
-			history = "ITA_POSTWAR_DESC"
+		"CHI"={
+			history = "CHI_POSTWAR_DESC"
 			ideology = democratic
 			ideas = {
-				
+				permanent_un_security_member
 			}	
 			focuses = {
 				
@@ -71,7 +71,7 @@ bookmarks = {
 			history = "SOV_POSTWAR_DESC"
 			ideology = communism
 			ideas = {
-				
+				permanent_un_security_member
 			}
 			focuses = {
 				

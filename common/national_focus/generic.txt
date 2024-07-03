@@ -28,58 +28,12 @@ focus_tree = {
 		focus = cold_war
 	}
 
-### DEPENDENT ON COUNTRY
-
-	focus = {
-		id = defeat_in_ww2
-		icon = GFX_focus_generic_university_2
-		x = 5
-		y = 0
-		cost = 10
-		search_filters = {  FOCUS_FILTER_POLITICAL }
-		
-		allow_branch = {
-			NOT = {
-				is_puppet = yes
-			}
-			has_idea = losers_of_ww2
-		}
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_political_power = 100
-			}
-		}
-
-	focus = {
-		id = victory_in_ww2
-		icon = GFX_focus_generic_university_2
-		x = 5
-		y = 0
-		cost = 10
-		search_filters = {  FOCUS_FILTER_POLITICAL }
-		
-		allow_branch = {
-			NOT = {
-				is_puppet = yes
-			}
-			has_idea = winners_of_ww2
-		}
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_political_power = 100
-			}
-		}
-
 ### GENERIC POLITICS
 
 	focus = {
 		id = cold_war
 		icon = GFX_focus_generic_university_2
-		x = 10
+		x = 5
 		y = 0
 		cost = 5
 		search_filters = {  FOCUS_FILTER_POLITICAL }
@@ -134,7 +88,7 @@ focus_tree = {
 	focus = {
 		id = industrial_reform
 		icon = GFX_focus_generic_university_2
-		x = 18
+		x = 13
 		y = 0
 		cost = 5
 		search_filters = {  FOCUS_FILTER_POLITICAL }
@@ -186,7 +140,9 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			add_ideas = {
+				gen_postwar_demobilization
+			}
 			}
 		}
 
@@ -208,6 +164,40 @@ focus_tree = {
 				has_completed_focus = demobilization
 			}
 		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+
+### GENERIC ARMY
+	focus = {
+		id = army_reform
+		icon = GFX_focus_generic_university_2
+		x = 20
+		y = 0
+		cost = 5
+		search_filters = {  FOCUS_FILTER_POLITICAL }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+
+	focus = {
+		id = infantry_equipment
+		icon = GFX_focus_generic_university_2
+		x = -1
+		y = 1
+		cost = 5
+		search_filters = {  FOCUS_FILTER_POLITICAL }
+
+		relative_position_id = army_reform
+		prerequisite = { focus = army_reform }
 		
 		available_if_capitulated = yes
 
