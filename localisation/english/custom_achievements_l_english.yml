@@ -1,5 +1,12 @@
-l_english:
- will_work_harder_NAME:0 "'I Will Work Harder...'"
- will_work_harder_DESC:0 "As a Communist nation, either control the area around London or have the United Kingdom as your puppet."
- orwells_wet_dream_NAME:0 "Orwell's Wet Dream"
- orwells_wet_dream_DESC:0 "As a Communist nation, have the United Kingdom as a puppet or ensure they don't exist."
+﻿l_english:
+ project_truman:0 "Project Truman Achievements"
+ achievement_will_work_harder_NAME:0 "I Will Work Harder..."
+ achievement_will_work_harder_DESC:0 "As a Communist nation, either control the area around London or have the United Kingdom as your puppet."
+ achievement_orwells_wet_dream_NAME:0 "Orwells Wet Dream"
+ achievement_orwells_wet_dream_DESC:0 "As a Communist nation, have the United Kingdom as a puppet or ensure they dont exist."
+ achievement_new_world_fallen_NAME:0 "Fall of the Western World"
+ achievement_new_world_fallen_DESC:0 "As a Communist nation in a faction with the Soviet Union, either puppet the three major Western powers or ensure they dont exist."
+ achievement_red_dawns_end_NAME:0 "Red Dawn's End"
+ achievement_red_dawns_end_DESC:0 "As a Democratic nation in a faction with any other Democratic nation, eradicate Communism."
+ achievement_global_revolution_NAME:0 "The Global Revolution"
+ achievement_global_revolution_DESC:0 "As a Communist nation in a faction with any other Communist nation, turn every nation Communist."
